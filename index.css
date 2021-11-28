@@ -1,0 +1,101 @@
+.topbar-profile-photo {
+  width: 1.5em;
+  height: 1.5em;
+  position: relative;
+}
+
+.story-photo {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-width: 2px !important;
+}
+
+.pro-photo{
+
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border-width: 2px !important;
+}
+.btn-ig{
+  right: 0;
+  bottom: 0;
+  top: 0;
+
+  background-color: transparent;
+  border: 0;
+  color:#007bff ;
+  font-weight: 600;
+}
+
+.btn-ig:hover,.btn-ig:focus{
+  color:#007bff !important;
+  background-color: transparent !important;
+}
+
+.comment-box{
+  border-top: 1px solid lightgray;
+}
+
+.side-profile-photo{
+  width: 56px;
+  height: 56px;
+  position: relative;
+  
+}
+
+
+.profile-info-username{
+  display: block;
+  font-weight: 700;
+}
+.profile-info-name{
+  font-size: 12px;
+}
+
+.sug-profile-photo{
+  width: 46px;
+  height: 46px;
+  position: relative;
+
+}
+
+.popup_img{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  display: none;
+}
+
+.popup_img span{
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 40px;
+  font-weight: bolder;
+  color: #fff;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.popup_img img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 5px soloid #fff;
+  border-radius: 5px;
+  width: 450px;
+  object-fit: fill;
+}
+
+@media (max-width:768px){
+  .main .popup_img img{
+      width: 65%;
+  }
+}
